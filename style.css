@@ -1,0 +1,31 @@
+body{
+  background-color: #F3F3F3;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Textos{
+  text-align: justify;
+  width: 500px;
+  margin-left: 40px;
+  position: relative;
+  top: 120px;
+}
+
+.Titulo{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  color: #2B58DE;
+  margin-bottom: 25px;
+}
+
+.Subtitulo{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.Conteudo{
+  font-size: 18px;
+  color: 808080;
+}
