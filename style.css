@@ -3,12 +3,23 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
+.Imagem-AnoNovo{
+  width: 550px;
+  height: 400px;
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  box-shadow: 2px 2px 2px;
+}
+
 .Textos{
   text-align: justify;
   width: 500px;
   margin-left: 40px;
   position: relative;
-  top: 120px;
+  top: 100px;
+  left: 850px;
 }
 
 .Titulo{
