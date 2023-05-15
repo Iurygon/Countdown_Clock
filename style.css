@@ -40,3 +40,25 @@ body{
   font-size: 18px;
   color: 808080;
 }
+
+.Countdown{
+  width: 30%;
+  display: flex;
+  position: relative;
+  left: 900px;
+  top: 150px;
+  text-align: center;
+  justify-content: space-between;
+  color: #000000;
+  text-shadow: 0 0 10px;
+}
+
+.Countdown h1{
+  font-size: calc(15px + 3vw);
+  position: relative;
+  bottom: 20px;
+}
+
+.Countdown p{
+  font-size: calc(10px + 1vw);
+}
