@@ -2,11 +2,13 @@
 
 const formatarDigito = (digito) => `0${digito}`.slice(-2);
 
+const segundos = document.getElementById('Segundos');
+const minutos = document.getElementById('Minutos');
+const horas = document.getElementById('Horas');
+const dias = document.getElementById('Dias');
+
 const atualizar = (tempo) => {
-    const segundos = document.getElementById('Segundos');
-    const minutos = document.getElementById('Minutos');
-    const horas = document.getElementById('Horas');
-    const dias = document.getElementById('Dias');
+   
 
     const qtdSegundos = tempo % 60;
     const qtdMinutos = Math.floor((tempo % (60 * 60)) / 60);
